@@ -33,7 +33,9 @@ class BaseLayout extends StatelessWidget {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.all(Radius.circular(20)),
               image: DecorationImage(
-                image: AssetImage(Ut.getWallpaper()),
+                image: AssetImage(
+                  Ut.getWallpaper(),
+                ),
                 fit: BoxFit.fill,
               ),
             ),
